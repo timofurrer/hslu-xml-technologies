@@ -1,7 +1,26 @@
 <html>
     <head>
+	<title>Sport fuer Alle</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.css">
+        <style>
+	    #left {
+	      left:-8.33%;
+              //text-align: left;
+	      float: left;
+	      width:50%;
+	      z-index:-10;
+	    }
+
+	    #right {
+	      left:31.25%;
+	      top: 75px;
+	      float: right;
+	      text-align: right;
+	      z-index:-10;
+	      width:50%;
+	    }
+        </style>
     </head>
     <body>
         <div class="reveal">
@@ -14,7 +33,15 @@
                 </section>
                 <section>
                     <h2>Das Sportzentrum</h2>
-                    <span style="color: red">#TODO: Beschreibung des Kunden / Sportzentrums</span>
+	            <div id="left">
+                        <ul>
+                            <li>Motivierte Sportler</li>
+                            <li>Sportler mit Einschraenkungen</li>
+                        </ul>
+                    </div>
+	            <div id="right">
+                        <img src="http://www.dailyfreepsd.com/wp-content/uploads/2013/09/flat-map-mockup.png" alt="Campus Map">
+                    </div>
                 </section>
                 <section>
                     <h2>Der Auftritt</h2>
@@ -55,7 +82,10 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
         <script>
-            Reveal.initialize();
+            Reveal.initialize({
+                history: true,
+                slideNumber: true,
+            });
         </script>
     </body>
 </html>
