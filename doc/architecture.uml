@@ -21,30 +21,30 @@ server -down-> bestaetigung
 package XML {
     file Reservierung.xml as reservierungXML
     file Angebot.xml as angebotXML
-    file Durchfürungen.xml as durchfuerungenXML
+    file Durchführungen.xml as durchfuehrungenXML
 }
 
 overview -down-> angebotXML
 
 angebot -down-> angebotXML
 angebot -down-> reservierungXML
-angebot -down-> durchfuerungenXML
+angebot -down-> durchfuehrungenXML
 
 anmeldung -down-> angebotXML
 anmeldung -down-> reservierungXML
 
 bestaetigung -down-> angebotXML
-bestaetigung -down-> durchfuerungenXML
+bestaetigung -down-> durchfuehrungenXML
 bestaetigung -down-> reservierungXML
 
 package XSD {
     file Reservierungen.xsd as reservierungXSD
     file Angebot.xsd as angebotXSD
-    file Durchfürungen.xsd as durchfuerungenXSD
+    file Durchführungen.xsd as durchfuerungenXSD
 }
 
 angebotXML -down-> angebotXSD
-durchfuerungenXML -down-> durchfuerungenXSD
+durchfuehrungenXML -down-> durchfuerungenXSD
 reservierungXML -down-> reservierungXSD
 
 

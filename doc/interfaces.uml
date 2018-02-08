@@ -9,13 +9,14 @@ interface Uebersicht {
 }
 
 interface Angebot {
-  +Anzeige Angebote und  Durchführung
+  +Anzeige Angebot und Durchführung
   +Statistik
+  +Lage
 }
-interface Anmelde {
+interface Anmeldung {
   +Reservierung speichern
 }
-interface Anmeldbestaetigung {
+interface Anmeldebestaetigung {
   +Bestätigung generieren
 }
 
