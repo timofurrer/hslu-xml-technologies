@@ -1,1 +1,50 @@
-@suki to complete
+@startuml
+
+title Sport für alle - Struktur
+package PHP {
+    component [PHP] as server
+}
+
+package XSL {
+    file Uebersicht.xsl as overview
+    file Angebot.xsl as angebot
+    file Anmelde.xsl as anmeldung
+    file Anmeldbestätigung.xsl as bestaetigung
+}
+
+server -down-> overview
+server -down-> angebot
+server -down-> anmeldung
+server -down-> bestaetigung
+
+package XML {
+    file Reservierung.xml as reservierungXML
+    file Angebot.xml as angebotXML
+    file Durchfürungen.xml as durchfuerungenXML
+}
+
+overview -down-> angebotXML
+
+angebot -down-> angebotXML
+angebot -down-> reservierungXML
+angebot -down-> durchfuerungenXML
+
+anmeldung -down-> angebotXML
+anmeldung -down-> reservierungXML
+
+bestaetigung -down-> angebotXML
+bestaetigung -down-> durchfuerungenXML
+bestaetigung -down-> reservierungXML
+
+package XSD {
+    file Reservierung.xsd as reservierungXSD
+    file Angebot.xsd as angebotXSD
+    file Durchfürungen.xsd as durchfuerungenXSD
+}
+
+angebotXML -down-> angebotXSD
+durchfuerungenXML -down-> durchfuerungenXSD
+reservierungXML -down-> reservierungXSD
+
+
+@enduml
