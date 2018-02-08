@@ -1,0 +1,21 @@
+@startuml
+
+title Classes - Class Diagram
+
+interface Uebersicht {
+  +Auflistung Angebote
+  +Filterung
+}
+
+interface Angebot {
+  +Anzeige Angebote und  Durchführung
+  +Statistik
+}
+interface Anmelde {
+  +Reservierung speichern
+}
+interface Anmeldbestaetigung {
+  +Bestätigung generieren
+}
+
+@enduml
