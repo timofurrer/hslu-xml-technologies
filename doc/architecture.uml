@@ -8,8 +8,8 @@ package PHP {
 package XSL {
     file Uebersicht.xsl as overview
     file Angebot.xsl as angebot
-    file Anmelde.xsl as anmeldung
-    file Anmeldbestätigung.xsl as bestaetigung
+    file Anmeldung.xsl as anmeldung
+    file Anmeldebestätigung.xsl as bestaetigung
 }
 
 server -down-> overview
@@ -37,7 +37,7 @@ bestaetigung -down-> durchfuerungenXML
 bestaetigung -down-> reservierungXML
 
 package XSD {
-    file Reservierung.xsd as reservierungXSD
+    file Reservierungen.xsd as reservierungXSD
     file Angebot.xsd as angebotXSD
     file Durchfürungen.xsd as durchfuerungenXSD
 }
