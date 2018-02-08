@@ -1,6 +1,7 @@
 @startuml
 
-title Sport für alle - Struktur
+/' remove title for pitch because the slide shows the title '/
+/'title Sport für alle - Struktur'/
 package PHP {
     component [PHP] as server
 }

@@ -1,6 +1,7 @@
 @startuml
 
-title Classes - Class Diagram
+/' The slides show the title '/
+/'title Interfaces'/
 
 interface Uebersicht {
   +Auflistung Angebote
