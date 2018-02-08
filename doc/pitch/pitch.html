@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.css">
         <style>
-	    #left {
+	    .left {
 	      left: -8.33%;
               text-align: left;
 	      float: left;
@@ -12,7 +12,7 @@
 	      z-index: -10;
 	    }
 
-	    #right {
+	    .right {
 	      left: 31.25%;
 	      top: 75px;
 	      float: right;
@@ -33,7 +33,7 @@
                 </section>
                 <section>
                     <h2>Das Sportzentrum</h2>
-	            <div id="left">
+	            <div class="left">
                         <ul>
                             <li>Motivierte Sportler</li>
                             <li>Sportler mit Einschraenkungen</li>
@@ -41,7 +41,7 @@
                             <li>Abendprogramme</li>
                         </ul>
                     </div>
-	            <div id="right">
+	            <div class="right">
                         <img src="http://www.dailyfreepsd.com/wp-content/uploads/2013/09/flat-map-mockup.png" alt="Campus Map">
                     </div>
                 </section>
@@ -74,7 +74,12 @@
                 </section>
                 <section>
                     <h2>Architektur</h2>
-                    <img src="architecture.png" alt="Architektur" style="background:none; border:none; box-shadow:none;">
+	            <div class="left" style="width: 60%">
+                        <img src="architecture.png" alt="Architektur" style="background:none; border:none; box-shadow:none;">
+                    </div>
+	            <div class="right" style="width: 40%">
+                        <img src="interfaces.png" alt="Interfaces" style="background:none; border:none; box-shadow:none;">
+                    </div>
                 </section>
                 <section>
                     <h2>Technologien</h2>
