@@ -1,0 +1,30 @@
+version: '2'
+
+networks:
+  backend:
+
+services:
+
+  server:
+    build: 
+      context: ./nginx
+      args:
+        - GID=777
+    restart: always
+    ports:
+    - "8080:80"
+    volumes:
+    - ${app}:/webroot/html
+    networks:
+    - backend
+
+  php:
+    build: 
+      context: ./php
+      args:
+        - GID=777
+    restart: always
+    volumes:
+    - ${app}:/webroot/html
+    networks:
+    - backend
