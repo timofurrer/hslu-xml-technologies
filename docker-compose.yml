@@ -6,7 +6,7 @@ networks:
 services:
 
   server:
-    build: 
+    build:
       context: ./nginx
       args:
         - GID=777
@@ -19,7 +19,7 @@ services:
     - backend
 
   php:
-    build: 
+    build:
       context: ./php
       args:
         - GID=777
