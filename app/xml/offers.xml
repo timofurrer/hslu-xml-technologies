@@ -1,13 +1,22 @@
 <?xml version="1.0" ?>
 
 <Angebote>
-    <Angebot>
+    <Angebot id="1">
         <Name>Angebot 1</Name>
+        <Description>
+            Foo bar
+        </Description>
     </Angebot>
-    <Angebot>
+    <Angebot id="2">
         <Name>Angebot 2</Name>
+        <Description>
+            Foo bar
+        </Description>
     </Angebot>
-    <Angebot>
+    <Angebot id="3">
         <Name>Angebot 3</Name>
+        <Description>
+            Foo bar
+        </Description>
     </Angebot>
 </Angebote>

@@ -4,9 +4,15 @@
 
 
     <xsl:template match="/">
-        <ul>
-            <xsl:apply-templates />
-        </ul>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Angebote</h2>
+        <hr class="star-dark mb-5" />
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <xsl:apply-templates />
+                </ul>
+            </div>
+        </div>
     </xsl:template>
 
     <xsl:template match="Angebot">
