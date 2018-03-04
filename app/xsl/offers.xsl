@@ -17,7 +17,9 @@
 
     <xsl:template match="Angebot">
         <li>
-            <xsl:value-of select="Name" />
+            <a href="/?page=offer&amp;offer={@id}">
+                <xsl:value-of select="Name" />
+            </a>
         </li>
     </xsl:template>
 </xsl:stylesheet>

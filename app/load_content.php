@@ -29,6 +29,10 @@ switch($page) {
     case 'offers':
         echo load_page('xml/offers.xml', 'xsl/offers.xsl');
         break;
+    case 'offer':
+        $offer = $_GET['offer'];
+        echo load_page('xml/offers.xml', 'xsl/offer.xsl', array('offer' => $offer));
+        break;
     case 'registration':
         $offer = $_GET['offer'];
         echo load_page('xml/offers.xml', 'xsl/registration.xsl', array('offer' => $offer));

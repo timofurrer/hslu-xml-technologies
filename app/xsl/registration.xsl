@@ -3,15 +3,9 @@
     <xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" indent="yes"/>
     <xsl:param name="offer" />
 
-
-    <!--<xsl:template match="/">-->
-        <!--<xsl:value-of select="$offer"/>-->
-    <!--</xsl:template>-->
-
     <xsl:template match="/">
         <xsl:apply-templates select="//Angebot[@id = $offer]" />
     </xsl:template>
-
 
     <xsl:template match="Angebot">
         <h2 class="text-center text-uppercase text-secondary mb-0">Registration: <xsl:value-of select="Name"/></h2>
