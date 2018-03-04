@@ -44,7 +44,20 @@
                 <hr class="star-dark mb-5">
                 <div class="row">
                     <div class="col-md-12">
-                        Hello World
+<?php
+$content = isset($_GET['page']) ? trim($_GET['page']) : 'default';
+
+switch($content) {
+    case 'course':
+        echo '@SUKI: HIER ANGEBOTE LADEN - XSLT?!';
+        break;
+    case 'registration':
+        echo 'HIER REGISTRATIONS PAGE LADEN';
+        break;
+    default:
+        echo '@DAMIR: HIER DIE SEITE MIT ALLEN ANGEBOTEN LADEN';
+}
+?>
                     </div>
                 </div>
             </div>
