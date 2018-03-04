@@ -17,7 +17,7 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#">XML Blockwoche Projekt</a>
+                <a class="navbar-brand" href="/">XML Blockwoche Projekt</a>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1">
