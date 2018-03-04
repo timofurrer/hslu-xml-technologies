@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Angebote>
+    <Angebot>
+        <Name>Angebot 1</Name>
+    </Angebot>
+    <Angebot>
+        <Name>Angebot 2</Name>
+    </Angebot>
+    <Angebot>
+        <Name>Angebot 3</Name>
+    </Angebot>
+</Angebote>

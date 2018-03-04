@@ -45,18 +45,23 @@
                 <div class="row">
                     <div class="col-md-12">
 <?php
-$content = isset($_GET['page']) ? trim($_GET['page']) : 'default';
 
-switch($content) {
-    case 'course':
-        echo '@SUKI: HIER ANGEBOTE LADEN - XSLT?!';
-        break;
-    case 'registration':
-        echo 'HIER REGISTRATIONS PAGE LADEN';
-        break;
-    default:
-        echo '@DAMIR: HIER DIE SEITE MIT ALLEN ANGEBOTEN LADEN';
-}
+$page = isset($_GET['page']) ? trim($_GET['page']) : 'offers';
+
+// Hello security
+$input_data = file_get_contents('xml/'.$page.'.xml');
+$xml = new DOMDocument();
+$xml->loadXML($input_data);
+
+$xsl = new DOMDocument();
+$xsl->load('xsl/'.$page.'.xsl');
+
+// transform
+$xslt_proc = new XSLTProcessor();
+$xslt_proc->importStylesheet($xsl);
+$dom = $xslt_proc->transformToDoc($xml);
+
+echo $dom->saveXML();
 ?>
                     </div>
                 </div>
