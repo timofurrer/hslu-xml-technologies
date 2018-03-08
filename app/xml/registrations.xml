@@ -1,4 +1,17 @@
 <?xml version="1.0" ?>
 
-<Registrations>
-</Registrations>
+<registrations>
+	<registration>
+		<eventId>1</eventId>
+	</registration>
+	<registration>
+		<eventId>1</eventId>
+	</registration>
+	<registration>
+		<eventId>2</eventId>
+	</registration>
+	<registration>
+		<eventId>3</eventId>
+	</registration>
+
+</registrations>

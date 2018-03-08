@@ -4,11 +4,11 @@
     <xsl:param name="offer" />
 
     <xsl:template match="/">
-        <xsl:apply-templates select="//Angebot[@id = $offer]" />
+        <xsl:apply-templates select="//offer[@id = $offer]" />
     </xsl:template>
 
-    <xsl:template match="Angebot">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Registration: <xsl:value-of select="Name"/></h2>
+    <xsl:template match="offer">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Registration: <xsl:value-of select="title"/></h2>
         <hr class="star-dark mb-5" />
         <div class="row">
             <div class="col-lg-8 mx-auto">

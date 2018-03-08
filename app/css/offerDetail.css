@@ -1,0 +1,16 @@
+#offerDetailTable {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+#offerDetailTable th {
+	width: 16em
+}
+
+#offerDetailTable tr {
+	margin-top: 2em;
+	
+}
+

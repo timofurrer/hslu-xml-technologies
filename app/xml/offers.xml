@@ -1,62 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/offers.xsl"?>
 <offers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/offers.xsd">
-	<offer id="01">
+	<offer id="1">
 	  <title>Torball</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable></suitable>
 	  <sport>4</sport>
 	</offer>
 
-	<offer id="02">
+	<offer id="2">
 	  <title>Showdown</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>4</sport>
 	</offer>
 
-	<offer id="03">
+	<offer id="3">
 	  <title>Unihockey</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>4</sport>
 	</offer>
 
-	<offer id="04">
+	<offer id="4">
 	  <title>Parathon</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>3</sport>
 	</offer>
 	
-    <offer id="05">
+    <offer id="5">
       <title>Schlittschuhfahren</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>2</sport>
     </offer>
 
-    <offer id="06">
+    <offer id="6">
       <title>Eishockey</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>2</sport>
     </offer>
 
-    <offer id="07">
+    <offer id="7">
       <title>Schlitteln</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>2</sport>
     </offer>
 
-    <offer id="08">
+    <offer id="8">
       <title>Skifahren</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>2</sport>
     </offer>
-	<offer id="09">
+	<offer id="9">
 		<title>Snowboarden</title>
 	  <description></description>
 	  <suitable></suitable>
