@@ -1,0 +1,126 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 36px;
+  text-align: left;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: white;
+}
+
+/*.footer{
+  background: white;
+}*/
+
+.main {
+  text-align: left;
+  background: white;
+}
+
+
+#flex-container{
+	flex-direction: column;
+	/*border: 4px solid black;*/
+	width: 100%;
+	align-items: center;
+	display: flex;
+    flex-flow: column wrap;
+	justify-content: center;
+}
+
+
+/* The following is optional */
+#flex-container > div {
+  background: #4682b4;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  text-align: center;
+  margin: 5px;
+  order: 2;
+  height: 200px;
+  width: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#flex-side{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+#flex-side > div {
+  background: #1eb6a7;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Bahnschrift;
+  font-size: 36px;
+  text-align: center;
+  margin: 5px;
+  order: 1;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aside-1 {
+  background: white;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main   { flex: 4 0px; }
+  .aside-1 { order: 1; } 
+  .main   { order: 2; }
+  .aside-2 { order: 3; }
+  /*.footer  { order: 4; }*/
+}
+
+body {
+  padding: 2em; 
+}
+
+.flexlink {
+    display:flex;
+	color: white;
+    flex-direction:column;
+    flex: 1 0 auto;
+    justify-content: center;
+    text-decoration:none;
+    padding:73px;    
+}
+
+.flexsidelink {
+    display:flex;
+	color: white;
+    flex-direction:column;
+    flex: 1 0 auto;
+    justify-content: center;
+    text-decoration:none;
+    padding:10px;    
+}
+.flexlink:hover{background:orange; color: white; text-decoration: none;}
+.flexsidelink:hover{background:orange; color: white; text-decoration: none;}

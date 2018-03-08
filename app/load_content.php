@@ -27,7 +27,8 @@ $page = isset($_GET['page']) ? trim($_GET['page']) : 'offers';
 
 switch($page) {
     case 'offers':
-        echo load_page('xml/offers.xml', 'xsl/offers.xsl');
+		$params = (array_key_exists('filter',$_GET))? array('filter' => $_GET['filter']) : [];
+        echo load_page('xml/offers.xml', 'xsl/offers.xsl', $params);
         break;
     case 'offer':
         $offer = $_GET['offer'];

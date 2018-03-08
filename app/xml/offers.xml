@@ -1,22 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="offers.xsl"?>
+<offers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="offers.xsd">
+	<offer id="01">
+	  <title>Torball</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>4</sport>
+	</offer>
+
+	<offer id="02">
+	  <title>Showdown</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>4</sport>
+	</offer>
+
+	<offer id="03">
+	  <title>Unihockey</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>4</sport>
+	</offer>
+
+	<offer id="04">
+	  <title>Parathon</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>3</sport>
+	</offer>
+	
+    <offer id="05">
+      <title>Schlittschuhfahren</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>2</sport>
+    </offer>
+
+    <offer id="06">
+      <title>Eishockey</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>2</sport>
+    </offer>
+
+    <offer id="07">
+      <title>Schlitteln</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>2</sport>
+    </offer>
+
+    <offer id="08">
+      <title>Skifahren</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>2</sport>
+    </offer>
+	<offer>
+		<title>Snowboarden</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>2</sport>
+	</offer>
+	<offer>
+		<title>Wandern</title>
+	  <description></description>
+	  <suitable></suitable>
+	  <sport>1</sport>
+	</offer>
+	<sporttype id="1">
+		<title>Sommersport</title>
+	</sporttype>
+	<sporttype id="2">
+		<title>Wintersport</title>
+	</sporttype>
+	<sporttype id="3">
+		<title>Laufsport</title>
+	</sporttype>
+	<sporttype id="4">
+		<title>Hallensport</title>
+	</sporttype>
+</offers>
+<!--
 <?xml version="1.0" ?>
 
-<Angebote>
-    <Angebot id="1">
-        <Name>Angebot 1</Name>
-        <Description>
+<offers>
+    <offer id="1">
+        <Name>offer 1</Name>
+        <description>
             Foo bar
-        </Description>
-    </Angebot>
-    <Angebot id="2">
-        <Name>Angebot 2</Name>
-        <Description>
+        </description>
+    </offer>
+    <offer id="2">
+        <Name>offer 2</Name>
+        <description>
             Foo bar
-        </Description>
-    </Angebot>
-    <Angebot id="3">
-        <Name>Angebot 3</Name>
-        <Description>
+        </description>
+    </offer>
+    <offer id="3">
+        <Name>offer 3</Name>
+        <description>
             Foo bar
-        </Description>
-    </Angebot>
-</Angebote>
+        </description>
+    </offer>
+</offers>
+-->
