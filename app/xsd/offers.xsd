@@ -4,19 +4,30 @@
 		<xs:complexType>
 			<xs:sequence minOccurs="1" maxOccurs="unbounded">
 				<xs:element ref="offer"/>
-			</xs:sequence>
+			</xs:sequence>        
 		</xs:complexType>
 	</xs:element>
-		
+  
+  <xs:element name="sporttype">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="title" type="xs:string"/>
+      </xs:all>
+      <xs:attribute name="id" type="xs:decimal" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
 	<xs:element name="offer">
 		<xs:complexType>
 			<xs:all>
 				<xs:element name="title" type="xs:string"/>
 				<xs:element name="description" type="xs:string"/>
 				<xs:element name="suitable" type="xs:string"/>
-				<xs:element name="sport" type="xs:string"/>
+				<xs:element name="sport" type="xs:decimal"/>
 			</xs:all>
 			<xs:attribute name="id" type="xs:decimal" use="required"/>
 		</xs:complexType>
 	</xs:element>
+
+
 </xs:schema>

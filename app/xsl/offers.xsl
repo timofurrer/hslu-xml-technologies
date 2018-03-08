@@ -2,11 +2,12 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" indent="yes"/>
 	<xsl:param name="filter"/>		
+	<xsl:param name="sportfile" select="document('../xml/sporttypes.xml')"/>
     <xsl:template match="/">
 						<h2 class="text-center text-uppercase text-secondary mb-0">Angebote</h2>
 					<hr class="star-dark mb-5" />
 				<div class="wrapper">
-					<!--<header class="header">Sport für alle</header>-->
+			
 
 					<article class="main">
 						<div id="flex-container">
@@ -16,22 +17,24 @@
 								</xsl:when>
 								<xsl:otherwise>
 									<xsl:apply-templates select="//offer[./sport = $filter]"/>
+								
 								</xsl:otherwise>
 							</xsl:choose>
 						</div>
 					</article>
 					<aside class="aside aside-1">
 						<div id="flex-side">
-							<xsl:apply-templates select="//sporttype"/>
+							<xsl:apply-templates select="$sportfile//sporttype"/>
 
 						</div>
 					</aside>
 				</div>
+				
     </xsl:template>
 				
     <xsl:template match="//offer">
 		<div>
-			<a href="/?page=offer&amp;offer={sport/text()}" class="flexlink">
+			<a href="/?page=offer&amp;offer={@id}" class="flexlink">
                 <xsl:value-of select="title"/>
 				<!--<xsl:value-of select="$filter"/>-->
             </a>

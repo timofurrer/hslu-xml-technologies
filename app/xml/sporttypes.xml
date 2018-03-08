@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<sporttypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/sporttypes.xsd">
+    <sporttype id="1">
+      <title>Sommersport</title>
+    </sporttype>
+    <sporttype id="2">
+      <title>Wintersport</title>
+    </sporttype>
+    <sporttype id="3">
+      <title>Laufsport</title>
+    </sporttype>
+    <sporttype id="4">
+      <title>Hallensport</title>
+    </sporttype>
+</sporttypes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="offers.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/offers.xsl"?>
 <offers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/offers.xsd">
 	<offer id="01">
 	  <title>Torball</title>
@@ -56,30 +56,18 @@
 	  <suitable></suitable>
 	  <sport>2</sport>
     </offer>
-	<offer>
+	<offer id="09">
 		<title>Snowboarden</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>2</sport>
 	</offer>
-	<offer>
+	<offer id="10">
 		<title>Wandern</title>
 	  <description></description>
 	  <suitable></suitable>
 	  <sport>1</sport>
 	</offer>
-	<sporttype id="1">
-		<title>Sommersport</title>
-	</sporttype>
-	<sporttype id="2">
-		<title>Wintersport</title>
-	</sporttype>
-	<sporttype id="3">
-		<title>Laufsport</title>
-	</sporttype>
-	<sporttype id="4">
-		<title>Hallensport</title>
-	</sporttype>
 </offers>
 <!--
 <?xml version="1.0" ?>
