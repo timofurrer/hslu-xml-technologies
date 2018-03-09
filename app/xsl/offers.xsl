@@ -17,15 +17,14 @@
 								</xsl:when>
 								<xsl:otherwise>
 									<xsl:apply-templates select="//offer[./sport = $filter]"/>
-								
 								</xsl:otherwise>
 							</xsl:choose>
 						</div>
 					</article>
 					<aside class="aside aside-1">
 						<div id="flex-side">
+							<a href="/?page=offers">Filter zurücksetzen</a>
 							<xsl:apply-templates select="$sportfile//sporttype"/>
-
 						</div>
 					</aside>
 				</div>
@@ -36,19 +35,30 @@
 		<div>
 			<a href="/?page=offer&amp;offer={@id}" class="flexlink">
                 <xsl:value-of select="title"/>
-				<!--<xsl:value-of select="$filter"/>-->
+				 
+				 <div class="bottom-left">
+					<img src="../resources/{suitable}.png" height="70" width="70"/>
+				 </div>
             </a>
 		</div>
     </xsl:template>
-	
-	
+
 	<xsl:template match="//sporttype">
 		<div>
-			<a href="/?page=offers&amp;filter={@id}" class="flexsidelink">
-				<xsl:value-of select="title"/>
-			</a>
+			<xsl:choose>
+				<xsl:when test="@id = $filter">
+					<a href="/?page=offers&amp;filter={@id}" class="selectedflexsidelink">
+						<xsl:value-of select="title"/>
+					</a>
+				</xsl:when>
+				<xsl:otherwise>
+					<a href="/?page=offers&amp;filter={@id}" class="flexsidelink">
+						<xsl:value-of select="title"/>
+					</a>
+				</xsl:otherwise>
+			</xsl:choose>	
 		</div>
-	</xsl:template>
+	</xsl:template>	
 </xsl:stylesheet>
 
 <!--

@@ -9,68 +9,68 @@
 		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
 		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 	  </description>
-	  <suitable></suitable>
+	  <suitable>blind</suitable>
 	  <sport>4</sport>
 	</offer>
 
 	<offer id="2">
 	  <title>Showdown</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>blind</suitable>
 	  <sport>4</sport>
 	</offer>
 
 	<offer id="3">
 	  <title>Unihockey</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>blind</suitable>
 	  <sport>4</sport>
 	</offer>
 
 	<offer id="4">
 	  <title>Parathon</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>halbblind</suitable>
 	  <sport>3</sport>
 	</offer>
 	
     <offer id="5">
-      <title>Schlittschuhfahren</title>
+      <title>Schlittschuheln</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>halbblind</suitable>
 	  <sport>2</sport>
     </offer>
 
     <offer id="6">
       <title>Eishockey</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>sehfaehig</suitable>
 	  <sport>2</sport>
     </offer>
 
     <offer id="7">
       <title>Schlitteln</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>sehfaehig</suitable>
 	  <sport>2</sport>
     </offer>
 
     <offer id="8">
       <title>Skifahren</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>blind</suitable>
 	  <sport>2</sport>
     </offer>
 	<offer id="9">
 		<title>Snowboarden</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>blind</suitable>
 	  <sport>2</sport>
 	</offer>
 	<offer id="10">
 		<title>Wandern</title>
 	  <description></description>
-	  <suitable></suitable>
+	  <suitable>blind</suitable>
 	  <sport>1</sport>
 	</offer>
 </offers>

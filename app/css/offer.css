@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 64px;
   text-align: center;
   margin: 5px;
   order: 2;
@@ -69,7 +69,7 @@
   justify-content: center;
   align-items: center;
   font-family: Bahnschrift;
-  font-size: 36px;
+  font-size: 40px;
   text-align: center;
   margin: 5px;
   order: 1;
@@ -78,7 +78,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.bottom-left {
+	margin-left: auto;
+    margin-top: auto;
+}
 .aside-1 {
   background: white;
 }
@@ -96,7 +99,6 @@
   .aside-1 { order: 1; } 
   .main   { order: 2; }
   .aside-2 { order: 3; }
-  /*.footer  { order: 4; }*/
 }
 
 body {
@@ -110,7 +112,7 @@ body {
     flex: 1 0 auto;
     justify-content: center;
     text-decoration:none;
-    padding:73px;    
+    padding:5px;    
 }
 
 .flexsidelink {
@@ -121,6 +123,17 @@ body {
     justify-content: center;
     text-decoration:none;
     padding:10px;    
+}
+
+.selectedflexsidelink{
+    display:flex;
+	color: white;
+	background: #e39696;
+    flex-direction:column;
+    flex: 1 0 auto;
+    justify-content: center;
+    text-decoration:none;
+    padding:10px; 	
 }
 .flexlink:hover{background:orange; color: white; text-decoration: none;}
 .flexsidelink:hover{background:orange; color: white; text-decoration: none;}
