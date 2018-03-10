@@ -74,27 +74,3 @@
 	  <sport>1</sport>
 	</offer>
 </offers>
-<!--
-<?xml version="1.0" ?>
-
-<offers>
-    <offer id="1">
-        <Name>offer 1</Name>
-        <description>
-            Foo bar
-        </description>
-    </offer>
-    <offer id="2">
-        <Name>offer 2</Name>
-        <description>
-            Foo bar
-        </description>
-    </offer>
-    <offer id="3">
-        <Name>offer 3</Name>
-        <description>
-            Foo bar
-        </description>
-    </offer>
-</offers>
--->

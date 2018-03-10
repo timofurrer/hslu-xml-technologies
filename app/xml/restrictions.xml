@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<restrictions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<restrictions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/restrictions.xsd">
 	<restriction id="1">Blindheit</restriction>
       <restriction id="2">Amaurose</restriction>
 	  <restriction id="3"> Hochgradige Sehbehinderung</restriction>

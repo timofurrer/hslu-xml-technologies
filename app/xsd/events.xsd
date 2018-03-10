@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../xsd/events.xsd">
+	<xs:element name="events">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element ref="event"/>
+			</xs:sequence>        
+		</xs:complexType>
+	</xs:element>
+  
+	<xs:element name="event">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="offerId" type="xs:string"/>
+				<xs:element name="from" type="xs:string"/>
+				<xs:element name="to" type="xs:string"/>
+				<xs:element name="price" type="xs:decimal"/>
+				<xs:element name="maxParticipant" type="xs:decimal"/>
+			</xs:all>
+			<xs:attribute name="id" type="xs:decimal" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+
+</xs:schema>
