@@ -19,7 +19,7 @@ function register($eventId, $name, $email, $tel, $address, $with_stayover, $rest
     $reg_node->addChild('needs_stayover', htmlentities((string)$with_stayover));
     $restriction_node = $reg_node->addChild('restrictions');
     foreach($restrictions as $restriction) {
-        $restriction_node->addChild('restriction', htmlentities($restriction));
+        $restriction_node->addChild('restrictionId', htmlentities($restriction));
     }
     $restriction_node->addChild('description', htmlentities($description));
 

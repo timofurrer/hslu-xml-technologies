@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <registrations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/registrations.xsd">
   <registration id="5aa3e973e0a7c">
     <eventId>1</eventId>
@@ -12,7 +11,7 @@
     <needs_stayover>true</needs_stayover>
     <restrictions>
       <restrictionId>3</restrictionId>
-       <restrictionId>1</restrictionId>
+      <restrictionId>1</restrictionId>
       <restrictionId>2</restrictionId>
       <description>sdfgsdfgsdfg sdfg&#xD;
 sdfg sdfg sdfg sdfg </description>
@@ -32,6 +31,21 @@ sdfg sdfg sdfg sdfg </description>
       <restrictionId>2</restrictionId>
       <restrictionId>4</restrictionId>
       <description>Ich bin blind.</description>
+    </restrictions>
+  </registration>
+  <registration id="5aa41abef2329">
+    <eventId>1</eventId>
+    <participant>
+      <name>Test User</name>
+      <email>testemail@foo.com</email>
+      <tel>+41 82264 4564 46</tel>
+      <address>Barstrasse 53</address>
+    </participant>
+    <needs_stayover>false</needs_stayover>
+    <restrictions>
+      <restrictionId>1</restrictionId>
+      <restrictionId>3</restrictionId>
+      <description/>
     </restrictions>
   </registration>
 </registrations>
