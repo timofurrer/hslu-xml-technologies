@@ -1,5 +1,4 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <registrations>
 	<registration>
 		<eventId>1</eventId>
@@ -14,4 +13,10 @@
 		<eventId>3</eventId>
 	</registration>
 
-</registrations>
+<registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><preserveWhitespace/><formatOutput>1</formatOutput><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
+sdfgsdfgsdfg&#xD;
+sdfgsdfgsdfgsdfg</description></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
+sdfgsdfgsdfg&#xD;
+sdfgsdfgsdfgsdfg</description></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
+sdfgsdfgsdfg&#xD;
+sdfgsdfgsdfgsdfg</description></restrictions></registration></registrations>
