@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<registrations>
+<registrations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/registrations.xsd">
   <registration id="5aa3e973e0a7c">
     <eventId>3</eventId>
     <participant>
@@ -8,12 +8,28 @@
       <tel>+41 77556 3313</tel>
       <address>Foostrasse 51</address>
     </participant>
-    <needs_stayover>1</needs_stayover>
+    <needs_stayover>true</needs_stayover>
     <restrictions>
       <restriction>Hochgradige Sehbehinderung</restriction>
       <restriction>Blindheit</restriction>
       <description>sdfgsdfgsdfg sdfg&#xD;
 sdfg sdfg sdfg sdfg </description>
+    </restrictions>
+  </registration>
+  <registration id="5aa3f2a04f6e9">
+    <eventId>1</eventId>
+    <participant>
+      <name>Test User</name>
+      <email>testemail@foo.com</email>
+      <tel>+41 82264 4564 46</tel>
+      <address>Barstrasse 53</address>
+    </participant>
+    <needs_stayover>false</needs_stayover>
+    <restrictions>
+      <restriction>Blindheit</restriction>
+      <restriction>Amaurose</restriction>
+      <restriction>Andere</restriction>
+      <description>Ich bin blind.</description>
     </restrictions>
   </registration>
 </registrations>
