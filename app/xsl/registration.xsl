@@ -48,26 +48,6 @@
                   <div class="control-group">
                     <h3>Einschraenkungen</h3>
                     <xsl:apply-templates select="$restrictionsXml/restrictions/restriction" />
-                    <!--<div class="form-group form-check floating-label-form-group controls mb-0 pb-2">-->
-                      <!--<input class="form-check-input" id="restrictions" name="restrictions[]" value="Sehbehinderung" type="checkbox" />-->
-                      <!--<label class="form-check-label">Sehbehinderung</label>-->
-                    <!--</div>-->
-                    <!--<div class="form-group form-check floating-label-form-group controls mb-0 pb-2">-->
-                      <!--<input class="form-check-input" id="restrictions" name="restrictions[]" value="Hochgradige Sehbehinderung" type="checkbox" />-->
-                      <!--<label class="form-check-label">hochgradige Sehbehinderung</label>-->
-                    <!--</div>-->
-                    <!--<div class="form-group form-check floating-label-form-group controls mb-0 pb-2">-->
-                      <!--<input class="form-check-input" id="restrictions" name="restrictions[]" value="Blindheit" type="checkbox" />-->
-                      <!--<label class="form-check-label">Blindheit</label>-->
-                    <!--</div>-->
-                    <!--<div class="form-group form-check floating-label-form-group controls mb-0 pb-2">-->
-                      <!--<input class="form-check-input" id="restrictions" name="restrictions[]" value="Amaurose" type="checkbox" />-->
-                      <!--<label class="form-check-label">Amaurose</label>-->
-                    <!--</div>-->
-                    <!--<div class="form-group form-check floating-label-form-group controls mb-0 pb-2">-->
-                      <!--<input class="form-check-input" id="restrictions" name="restrictions[]" value="Andere" type="checkbox" />-->
-                      <!--<label class="form-check-label">Andere</label>-->
-                    <!--</div>-->
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
                         <label>Beschreibung Ihrer Einschraenkung</label>
                         <textarea class="form-control" id="description" name="restriction_description" rows="5"></textarea>
