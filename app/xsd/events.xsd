@@ -11,7 +11,7 @@
 	<xs:element name="event">
 		<xs:complexType>
 			<xs:all>
-				<xs:element name="offerId" type="xs:string"/>
+				<xs:element name="offerId" type="xs:decimal"/>
 				<xs:element name="from" type="xs:string"/>
 				<xs:element name="to" type="xs:string"/>
 				<xs:element name="price" type="xs:decimal"/>
