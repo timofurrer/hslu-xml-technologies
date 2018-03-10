@@ -43,6 +43,7 @@
         <section class="portfolio" id="portfolio">
             <div class="container">
 <?php
+    require 'registration.php';
     require 'load_content.php';
 ?>
             </div>

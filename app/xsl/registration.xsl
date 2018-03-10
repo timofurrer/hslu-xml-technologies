@@ -12,47 +12,69 @@
         <hr class="star-dark mb-5" />
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <form name="registration" id="registrationForm" novalidate="novalidate">
+                <form name="registration" id="registrationForm" method="post" action="#">
                   <div class="control-group">
+                    <h3>Zu Ihnen</h3>
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label>Name</label>
-                      <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                      <label for="name">Name</label>
+                      <input class="form-control" id="name" name="name" type="text" placeholder="Name" required="required" data-validation-required-message="Bitte geben Sie Ihren Namen ein." />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label for="email">Email Address</label>
+                      <input class="form-control" id="email" name="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Bitte geben Sie Ihre E-Mail Adresse ein." />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label for="phone">Telefon</label>
+                      <input class="form-control" id="phone" name="tel" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Bitte geben Sie Ihre Telefonnummer ein." />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label for="address">Adresse</label>
+                      <input class="form-control" id="address" name="address" type="text" placeholder="Adresse" required="required" data-validation-required-message="Bitte geben Sie Ihre Adresse ein." />
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="control-group">
-                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label>Email Address</label>
-                      <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                    <h3>Uebernachtung</h3>
+                    <div class="form-group form-check floating-label-form-group controls mb-0 pb-2">
+                      <input class="form-check-input" id="uebernachtung" name="uebernachtung" type="checkbox" />
+                      <label class="form-check-label">Mit Uebernachtung</label>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="control-group">
-                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label>Telefon</label>
-                      <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                      <p class="help-block text-danger"></p>
+                    <h3>Einschraenkungen</h3>
+                    <div class="form-group form-check floating-label-form-group controls mb-0 pb-2">
+                      <input class="form-check-input" id="restrictions" name="restrictions[]" value="Sehbehinderung" type="checkbox" />
+                      <label class="form-check-label">Sehbehinderung</label>
                     </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label>Adresse</label>
-                      <input class="form-control" id="address" type="text" placeholder="Adresse" required="required" data-validation-required-message="Please enter your phone number." />
-                      <p class="help-block text-danger"></p>
+                    <div class="form-group form-check floating-label-form-group controls mb-0 pb-2">
+                      <input class="form-check-input" id="restrictions" name="restrictions[]" value="Hochgradige Sehbehinderung" type="checkbox" />
+                      <label class="form-check-label">hochgradige Sehbehinderung</label>
                     </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label>Mit Uebernachtung</label>
-                      <input class="form-control" id="uebernachtung" type="checkbox" />
-                      <p class="help-block text-danger"></p>
+                    <div class="form-group form-check floating-label-form-group controls mb-0 pb-2">
+                      <input class="form-check-input" id="restrictions" name="restrictions[]" value="Blindheit" type="checkbox" />
+                      <label class="form-check-label">Blindheit</label>
                     </div>
+                    <div class="form-group form-check floating-label-form-group controls mb-0 pb-2">
+                      <input class="form-check-input" id="restrictions" name="restrictions[]" value="Amaurose" type="checkbox" />
+                      <label class="form-check-label">Amaurose</label>
+                    </div>
+                    <div class="form-group form-check floating-label-form-group controls mb-0 pb-2">
+                      <input class="form-check-input" id="restrictions" name="restrictions[]" value="Andere" type="checkbox" />
+                      <label class="form-check-label">Andere</label>
+                    </div>
+		    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+			<label>Beschreibung Ihrer Einschraenkung</label>
+			<textarea class="form-control" id="description" name="restriction_description" rows="5"></textarea>
+			<p class="help-block text-danger"></p>
+		    </div>
                   </div>
                   <br />
                   <div id="success"></div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-                  </div>
+                  <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
                 </form>
             </div>
         </div>

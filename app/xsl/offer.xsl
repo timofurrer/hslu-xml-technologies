@@ -4,10 +4,10 @@
 	<xsl:param name="eventXml" select="document('../xml/events.xml')"/>
 	<xsl:param name="registrationXml" select="document('../xml/registrations.xml')"/>
 	<xsl:param name="offer" />
-	
-	
-    <xsl:template match="/">		
-			<xsl:apply-templates select="//offers/offer[@id = '1']" />	
+
+
+    <xsl:template match="/">
+			<xsl:apply-templates select="//offers/offer[@id = '1']" />
     </xsl:template>
 
     <xsl:template match="offer">
@@ -15,11 +15,11 @@
 			<xsl:value-of select="title" />
 		</h2>
 		<hr class="star-dark mb-5" />
-		
-		
+
+
 		<xsl:value-of select="description" />
-		
-	
+
+
 		<table id="offerDetailTable" >
 			<tr>
 				<th> Datum</th>
@@ -29,7 +29,7 @@
 			</tr>
 			<xsl:apply-templates select="$eventXml//events/event/offerId" />
 		</table>
-		
+
 		<div class="control-group">
 			<div class="control-group">
 				<h4 class="">
@@ -39,25 +39,23 @@
 			</div>
 			<div class="control-group">
 			<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" >
-			  <rect x="10" y="10" width="10" 
-				height="50" fill="red" stroke="black"/>  
+			  <rect x="10" y="10" width="10"
+				height="50" fill="red" stroke="black"/>
 			</svg>
 			</div>
 		</div>
     </xsl:template>
-	
+
 	<xsl:template match="//events/event/offerId">
-		
+                <xsl:variable name="evId" select="../@id" />
 		 <tr>
 			<td><xsl:value-of select="../from" /> - <xsl:value-of select="../to" /></td>
-			<td> 
-				<xsl:variable name="evId" select="../@id" /> 
-				
-				<xsl:value-of select="count($registrationXml//registration/eventId[text() = $evId])" /> 
+			<td>
+				<xsl:value-of select="count($registrationXml//registration/eventId[text() = $evId])" />
 				/ <xsl:value-of select="../maxParticipant" />
 			</td>
 			<td><xsl:value-of select="../price" /> CHF.-</td>
-			<td> <a href="/?page=registration&amp;offer={$offer}" class="btn btn-primary btn-xl" id="registrationButton">Anmelden</a></td>
+                        <td> <a href="/?page=registration&amp;offer={$offer}&amp;event={$evId}" class="btn btn-primary btn-xl" id="registrationButton">Anmelden</a></td>
 		  </tr>
 	</xsl:template>
 </xsl:stylesheet>
