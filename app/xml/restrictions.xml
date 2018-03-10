@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <restrictions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-    <restriction id="1">Sehbehinderung</restriction>
-	<restriction id="2">Hochgradige Sehbehinderung</restriction>
-	<restriction id="3">Andere</restriction>
+	<restriction id="1">Blindheit</restriction>
+      <restriction id="2">Amaurose</restriction>
+	  <restriction id="3"> Hochgradige Sehbehinderung</restriction>
+	 <restriction id="4"> Andere</restriction>
 </restrictions>

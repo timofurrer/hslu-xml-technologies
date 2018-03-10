@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="registrations">
+        <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="registration"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="registration">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="eventId" type="xs:integer"/>
+                <xs:element ref="participant" />
+                <xs:element name="needs_stayover" type="xs:boolean"/>
+                <xs:element ref="restrictions" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="participant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="email" type="xs:string"/>
+                <xs:element name="tel" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="restrictions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="restriction" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,23 +1,23 @@
 <?xml version="1.0" ?>
 <events>
 	<event id="1">
-		<offerId>1</offerId>		
+		<offerId>1</offerId>
 		<from>08.03.2018</from>
 		<to>09.03.2018</to>
 		<price>over 9000</price>
 		<maxParticipant>17</maxParticipant>
 	</event>
-	
+
 	<event id="2">
-		<offerId>1</offerId>		
+		<offerId>1</offerId>
 		<from>08.03.2018</from>
 		<to>09.03.2018</to>
 		<price>12</price>
 		<maxParticipant>4</maxParticipant>
 	</event>
-	
+
 	<event id="3">
-		<offerId>2</offerId>		
+		<offerId>2</offerId>
 		<from>08.03.2018</from>
 		<to>09.03.2018</to>
 		<price>1337</price>

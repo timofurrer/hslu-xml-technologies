@@ -1,73 +1,37 @@
 <?xml version="1.0"?>
-<registrations>
-	<!--registration>
-		<eventId>1</eventId>
-	</registration>
-	<registration>
-		<eventId>1</eventId>
-	</registration>
-	<registration>
-		<eventId>2</eventId>
-	</registration>
-	<registration>
-		<eventId>3</eventId>
-	</registration-->
 
-<registration>
-	<eventId>1</eventId>
-	<participant>
-		<name>dfg</name>
-		<email>sdfgsdfg@foo.com</email>
-		<tel>sdfgsdfg</tel>
-		<address>sdfgsdfg</address>
-	</participant>
-	<needs_stayover>1</needs_stayover>
-	<restrictions>
-		
-<restrictionId>1</restrictionId>
-		<restrictionId>2</restrictionId>
-		<restrictionId>3</restrictionId>
-
-		<description/>
-	</restrictions>
-</registration>
-<preserveWhitespace/>
-<formatOutput>1</formatOutput>
-<registration>
-	<eventId>1</eventId>
-	<participant>
-		<name>dfg</name>
-		<email>sdfgsdfg@foo.com</email>
-		<tel>sdfgsdfg</tel>
-		<address>sdfgsdfg</address>
-	</participant>
-	<needs_stayover>1</needs_stayover>
-	<restrictions>
-		
-		<restrictionId>1</restrictionId>
-		<restrictionId>2</restrictionId>
-
-		<description/>
-	</restrictions>
-</registration>
-
-
-<registration>
-	<eventId>1</eventId>
-	<participant>
-		<name>dfg</name>
-		<email>sdfgsdfg@foo.com</email>
-		<tel>sdfgsdfg</tel>
-		<address>sdfgsdfg</address>
-	</participant>
-	<needs_stayover>1</needs_stayover>
-	<restrictions>
-		
-<restrictionId>1</restrictionId>
-
-
-		<description/>
-	</restrictions>
-</registration>
-
+<registrations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/registrations.xsd">
+  <registration id="5aa3e973e0a7c">
+    <eventId>1</eventId>
+    <participant>
+      <name>Timo Furrer</name>
+      <email>tuxtimo@gmail.com</email>
+      <tel>+41 77556 3313</tel>
+      <address>Foostrasse 51</address>
+    </participant>
+    <needs_stayover>true</needs_stayover>
+    <restrictions>
+      <restrictionId>3</restrictionId>
+       <restrictionId>1</restrictionId>
+      <restrictionId>2</restrictionId>on>
+      <description>sdfgsdfgsdfg sdfg&#xD;
+sdfg sdfg sdfg sdfg </description>
+    </restrictions>
+  </registration>
+  <registration id="5aa3f2a04f6e9">
+    <eventId>1</eventId>
+    <participant>
+      <name>Test User</name>
+      <email>testemail@foo.com</email>
+      <tel>+41 82264 4564 46</tel>
+      <address>Barstrasse 53</address>
+    </participant>
+    <needs_stayover>false</needs_stayover>
+    <restrictions>
+      <restrictionId>1</restrictionId>
+      <restrictionId>2</restrictionId>
+      <restrictionId>4</restrictionId>
+      <description>Ich bin blind.</description>
+    </restrictions>
+  </registration>
 </registrations>
