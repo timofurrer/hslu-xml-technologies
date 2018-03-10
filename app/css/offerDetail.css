@@ -14,3 +14,18 @@
 	
 }
 
+#statisticInfo {
+	text-align:center;
+	
+}
+	
+.statistic-rect svg{
+	width: 5em;
+	height: 5em;
+	
+}
+
+.statistic-rect {
+	margin:auto;
+	
+}

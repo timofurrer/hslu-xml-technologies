@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <registrations>
-	<registration>
+	<!--registration>
 		<eventId>1</eventId>
 	</registration>
 	<registration>
@@ -11,12 +11,63 @@
 	</registration>
 	<registration>
 		<eventId>3</eventId>
-	</registration>
+	</registration-->
 
-<registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><preserveWhitespace/><formatOutput>1</formatOutput><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
-sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
-sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
-sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description></restrictions></registration></registrations>
+<registration>
+	<eventId>1</eventId>
+	<participant>
+		<name>dfg</name>
+		<email>sdfgsdfg@foo.com</email>
+		<tel>sdfgsdfg</tel>
+		<address>sdfgsdfg</address>
+	</participant>
+	<needs_stayover>1</needs_stayover>
+	<restrictions>
+		
+<restrictionId>1</restrictionId>
+		<restrictionId>2</restrictionId>
+		<restrictionId>3</restrictionId>
+
+		<description/>
+	</restrictions>
+</registration>
+<preserveWhitespace/>
+<formatOutput>1</formatOutput>
+<registration>
+	<eventId>1</eventId>
+	<participant>
+		<name>dfg</name>
+		<email>sdfgsdfg@foo.com</email>
+		<tel>sdfgsdfg</tel>
+		<address>sdfgsdfg</address>
+	</participant>
+	<needs_stayover>1</needs_stayover>
+	<restrictions>
+		
+		<restrictionId>1</restrictionId>
+		<restrictionId>2</restrictionId>
+
+		<description/>
+	</restrictions>
+</registration>
+
+
+<registration>
+	<eventId>1</eventId>
+	<participant>
+		<name>dfg</name>
+		<email>sdfgsdfg@foo.com</email>
+		<tel>sdfgsdfg</tel>
+		<address>sdfgsdfg</address>
+	</participant>
+	<needs_stayover>1</needs_stayover>
+	<restrictions>
+		
+<restrictionId>1</restrictionId>
+
+
+		<description/>
+	</restrictions>
+</registration>
+
+</registrations>
