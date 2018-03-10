@@ -1,10 +1,15 @@
 <?php
 
+require_once 'registration_confirmation.php';
+
 function register($eventId, $name, $email, $tel, $address, $with_stayover, $restrictions, $description) {
     $xml = simplexml_load_file('xml/registrations.xml');
 
+    $registration_id = uniqid();
+
     // create new Registration entry
     $reg_node = $xml->addChild('registration');
+    $reg_node->addAttribute('id', $registration_id);
     $reg_node->addChild('eventId', htmlentities($eventId));
     $participant_node = $reg_node->addChild('participant');
     $participant_node->addChild('name', htmlentities($name));
@@ -19,7 +24,13 @@ function register($eventId, $name, $email, $tel, $address, $with_stayover, $rest
     $restriction_node->addChild('description', htmlentities($description));
     file_put_contents('xml/registrations.xml', $xml->asXML());
 
-    echo "<div class=\"alert alert-success\" role=\"alert\">Sie wurden erfolgreich angemeldet!</div>";
+    // generate confirmation PDF
+    $confirmation = generate_confirmation($registration_id);
+
+    echo '<div class="alert alert-success" role="alert">';
+    echo "Sie wurden erfolgreich angemeldet! ";
+    echo $confirmation;
+    echo "</div>";
 }
 
 function verify($available_fields, $required_fields) {

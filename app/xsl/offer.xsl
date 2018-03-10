@@ -7,7 +7,7 @@
 
 
     <xsl:template match="/">
-			<xsl:apply-templates select="//offers/offer[@id = '1']" />
+			<xsl:apply-templates select="//offers/offer[@id = $offer]" />
     </xsl:template>
 
     <xsl:template match="offer">

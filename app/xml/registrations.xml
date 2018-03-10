@@ -1,22 +1,161 @@
 <?xml version="1.0"?>
 <registrations>
-	<registration>
-		<eventId>1</eventId>
-	</registration>
-	<registration>
-		<eventId>1</eventId>
-	</registration>
-	<registration>
-		<eventId>2</eventId>
-	</registration>
-	<registration>
-		<eventId>3</eventId>
-	</registration>
-
-<registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><preserveWhitespace/><formatOutput>1</formatOutput><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description/></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
+  <registration>
+    <eventId>1</eventId>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+  </registration>
+  <registration>
+    <eventId>2</eventId>
+  </registration>
+  <registration>
+    <eventId>3</eventId>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description/>
+    </restrictions>
+  </registration>
+  <preserveWhitespace/>
+  <formatOutput>1</formatOutput>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description/>
+    </restrictions>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description/>
+    </restrictions>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description/>
+    </restrictions>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description>dfgsdfgsdfgsdfg&#xD;
 sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
+sdfgsdfgsdfgsdfg</description>
+    </restrictions>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description>dfgsdfgsdfgsdfg&#xD;
 sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description></restrictions></registration><registration><eventId>1</eventId><participant><name>dfg</name><email>sdfgsdfg@foo.com</email><tel>sdfgsdfg</tel><address>sdfgsdfg</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Sehbehinderung</restriction><restriction>Hochgradige Sehbehinderung</restriction><restriction>Andere</restriction><description>dfgsdfgsdfgsdfg&#xD;
+sdfgsdfgsdfgsdfg</description>
+    </restrictions>
+  </registration>
+  <registration>
+    <eventId>1</eventId>
+    <participant>
+      <name>dfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>sdfgsdfg</tel>
+      <address>sdfgsdfg</address>
+    </participant>
+    <needs_stayover>1</needs_stayover>
+    <restrictions>
+      <restriction>Sehbehinderung</restriction>
+      <restriction>Hochgradige Sehbehinderung</restriction>
+      <restriction>Andere</restriction>
+      <description>dfgsdfgsdfgsdfg&#xD;
 sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description></restrictions></registration></registrations>
+sdfgsdfgsdfgsdfg</description>
+    </restrictions>
+  </registration>
+  <registration id="5aa3d9599e0be">
+    <eventId>1</eventId>
+    <participant>
+      <name>sdfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>dsfg</tel>
+      <address>sdfg</address>
+    </participant>
+    <needs_stayover/>
+    <restrictions>
+      <description/>
+    </restrictions>
+  </registration>
+  <registration id="5aa3d99c0a112">
+    <eventId>1</eventId>
+    <participant>
+      <name>sdfg</name>
+      <email>sdfgsdfg@foo.com</email>
+      <tel>dsfg</tel>
+      <address>sdfg</address>
+    </participant>
+    <needs_stayover/>
+    <restrictions>
+      <description/>
+    </restrictions>
+  </registration>
+<registration id="5aa3e5047b507"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e541628ce"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e55669f4a"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e56ab91bf"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration></registrations>
