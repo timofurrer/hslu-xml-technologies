@@ -31,7 +31,7 @@
     <xs:element name="restrictions">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="restriction" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element name="restrictionId" type="xs:integer" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1" />
             </xs:sequence>
         </xs:complexType>
