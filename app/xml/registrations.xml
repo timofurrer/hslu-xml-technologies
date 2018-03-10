@@ -1,167 +1,19 @@
 <?xml version="1.0"?>
 <registrations>
-  <registration>
-    <eventId>1</eventId>
-  </registration>
-  <registration>
-    <eventId>1</eventId>
-  </registration>
-  <registration>
-    <eventId>2</eventId>
-  </registration>
-  <registration>
-    <eventId>3</eventId>
-  </registration>
-  <registration>
+  <registration id="5aa3e973e0a7c">
     <eventId>1</eventId>
     <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
+      <name>Timo Furrer</name>
+      <email>tuxtimo@gmail.com</email>
+      <tel>+41 77556 3313</tel>
+      <address>Foostrasse 51</address>
     </participant>
     <needs_stayover>1</needs_stayover>
     <restrictions>
-      <restriction>Sehbehinderung</restriction>
       <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description/>
+      <restriction>Blindheit</restriction>
+      <description>sdfgsdfgsdfg sdfg&#xD;
+sdfg sdfg sdfg sdfg </description>
     </restrictions>
   </registration>
-  <preserveWhitespace/>
-  <formatOutput>1</formatOutput>
-  <registration>
-    <eventId>1</eventId>
-    <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
-    </participant>
-    <needs_stayover>1</needs_stayover>
-    <restrictions>
-      <restriction>Sehbehinderung</restriction>
-      <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description/>
-    </restrictions>
-  </registration>
-  <registration>
-    <eventId>1</eventId>
-    <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
-    </participant>
-    <needs_stayover>1</needs_stayover>
-    <restrictions>
-      <restriction>Sehbehinderung</restriction>
-      <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description/>
-    </restrictions>
-  </registration>
-  <registration>
-    <eventId>1</eventId>
-    <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
-    </participant>
-    <needs_stayover>1</needs_stayover>
-    <restrictions>
-      <restriction>Sehbehinderung</restriction>
-      <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description/>
-    </restrictions>
-  </registration>
-  <registration>
-    <eventId>1</eventId>
-    <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
-    </participant>
-    <needs_stayover>1</needs_stayover>
-    <restrictions>
-      <restriction>Sehbehinderung</restriction>
-      <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description>dfgsdfgsdfgsdfg&#xD;
-sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description>
-    </restrictions>
-  </registration>
-  <registration>
-    <eventId>1</eventId>
-    <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
-    </participant>
-    <needs_stayover>1</needs_stayover>
-    <restrictions>
-      <restriction>Sehbehinderung</restriction>
-      <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description>dfgsdfgsdfgsdfg&#xD;
-sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description>
-    </restrictions>
-  </registration>
-  <registration>
-    <eventId>1</eventId>
-    <participant>
-      <name>dfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>sdfgsdfg</tel>
-      <address>sdfgsdfg</address>
-    </participant>
-    <needs_stayover>1</needs_stayover>
-    <restrictions>
-      <restriction>Sehbehinderung</restriction>
-      <restriction>Hochgradige Sehbehinderung</restriction>
-      <restriction>Andere</restriction>
-      <description>dfgsdfgsdfgsdfg&#xD;
-sdfgsdfgsdfg&#xD;
-sdfgsdfgsdfgsdfg</description>
-    </restrictions>
-  </registration>
-  <registration id="5aa3d9599e0be">
-    <eventId>1</eventId>
-    <participant>
-      <name>sdfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>dsfg</tel>
-      <address>sdfg</address>
-    </participant>
-    <needs_stayover/>
-    <restrictions>
-      <description/>
-    </restrictions>
-  </registration>
-  <registration id="5aa3d99c0a112">
-    <eventId>1</eventId>
-    <participant>
-      <name>sdfg</name>
-      <email>sdfgsdfg@foo.com</email>
-      <tel>dsfg</tel>
-      <address>sdfg</address>
-    </participant>
-    <needs_stayover/>
-    <restrictions>
-      <description/>
-    </restrictions>
-  </registration>
-<registration id="5aa3e5047b507"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e541628ce"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e55669f4a"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e56ab91bf"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e5a3e3deb"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e5ba0f3a7"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e5ca21619"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e67f95c90"><eventId>1</eventId><participant><name>sdfg</name><email>sdfgsdfg@foo.com</email><tel>dsfg</tel><address>sdfg</address></participant><needs_stayover/><restrictions><description/></restrictions></registration><registration id="5aa3e6c88197c"><eventId>1</eventId><participant><name>Timo Furrer</name><email>tuxtimo@gmail.com</email><tel>+41 77556 3313</tel><address>Foostrasse 51</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Hochgradige Sehbehinderung</restriction><restriction>Blindheit</restriction><description>sdfgsdfgsdfg sdfg&#xD;
-sdfg sdfg sdfg sdfg </description></restrictions></registration><registration id="5aa3e7c46d6eb"><eventId>1</eventId><participant><name>Timo Furrer</name><email>tuxtimo@gmail.com</email><tel>+41 77556 3313</tel><address>Foostrasse 51</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Hochgradige Sehbehinderung</restriction><restriction>Blindheit</restriction><description>sdfgsdfgsdfg sdfg&#xD;
-sdfg sdfg sdfg sdfg </description></restrictions></registration><registration id="5aa3e7e05c980"><eventId>1</eventId><participant><name>Timo Furrer</name><email>tuxtimo@gmail.com</email><tel>+41 77556 3313</tel><address>Foostrasse 51</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Hochgradige Sehbehinderung</restriction><restriction>Blindheit</restriction><description>sdfgsdfgsdfg sdfg&#xD;
-sdfg sdfg sdfg sdfg </description></restrictions></registration><registration id="5aa3e8a694427"><eventId>1</eventId><participant><name>Timo Furrer</name><email>tuxtimo@gmail.com</email><tel>+41 77556 3313</tel><address>Foostrasse 51</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Hochgradige Sehbehinderung</restriction><restriction>Blindheit</restriction><description>sdfgsdfgsdfg sdfg&#xD;
-sdfg sdfg sdfg sdfg </description></restrictions></registration><registration id="5aa3e8cf45a96"><eventId>1</eventId><participant><name>Timo Furrer</name><email>tuxtimo@gmail.com</email><tel>+41 77556 3313</tel><address>Foostrasse 51</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Hochgradige Sehbehinderung</restriction><restriction>Blindheit</restriction><description>sdfgsdfgsdfg sdfg&#xD;
-sdfg sdfg sdfg sdfg </description></restrictions></registration><registration id="5aa3e90ce80f6"><eventId>1</eventId><participant><name>Timo Furrer</name><email>tuxtimo@gmail.com</email><tel>+41 77556 3313</tel><address>Foostrasse 51</address></participant><needs_stayover>1</needs_stayover><restrictions><restriction>Hochgradige Sehbehinderung</restriction><restriction>Blindheit</restriction><description>sdfgsdfgsdfg sdfg&#xD;
-sdfg sdfg sdfg sdfg </description></restrictions></registration></registrations>
+</registrations>

@@ -22,10 +22,6 @@ function generate_fofile($xml_path, $xsl_path, $parameters = []) {
     }
 
     $dom = $xslt_proc->transformToDoc($xml);
-
-    echo '<code>';
-    echo htmlentities($dom->saveXML());
-    echo '</code>';
     return $dom->saveXML();
 }
 
