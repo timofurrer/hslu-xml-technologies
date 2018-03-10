@@ -23,6 +23,9 @@ function generate_fofile($xml_path, $xsl_path, $parameters = []) {
 
     $dom = $xslt_proc->transformToDoc($xml);
 
+    echo '<code>';
+    echo htmlentities($dom->saveXML());
+    echo '</code>';
     return $dom->saveXML();
 }
 
@@ -31,7 +34,7 @@ function generate_confirmation($registration) {
 
     // create an instance of the FOP client and perform service request.
     $serviceClient = new FOPServiceClient();
-    $pdfFile = $serviceClient->processData($foData, tempnam(sys_get_temp_dir(), 'fo'));
+    $pdfFile = $serviceClient->processData($foData, tempnam(sys_get_temp_dir(), 'confirmation.') . '.pdf');
 
     return sprintf('Generated Confirmation PDF: <strong><a href="%s">download PDF</a></strong>', $pdfFile);
 }

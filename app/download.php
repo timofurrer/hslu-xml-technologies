@@ -26,12 +26,12 @@ final class FileDownload {
         header('Expires: 0');
         header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
         header('Pragma: public');
-        header('Content-Length: ' . filesize($this->fileName));
+        header('Content-Length: ' . filesize(sys_get_temp_dir() . '/' . $this->fileName));
 
         // send file
         ob_clean();
         flush();
-        readfile($this->fileName);
+        readfile(sys_get_temp_dir() . '/' . $this->fileName);
     }
 
 }
