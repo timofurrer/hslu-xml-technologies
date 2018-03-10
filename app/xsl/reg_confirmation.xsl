@@ -4,7 +4,7 @@
     <xsl:import href="code128/code128.xsl"/>
 
     <xsl:param name="eventXml" select="document('../xml/events.xml')"/>
-    <xsl:param name="registrationXml" select="document('../xml/registrations.xml')"/>
+    <xsl:param name="offersXml" select="document('../xml/offers.xml')"/>
     <xsl:param name="registration" />
 
     <xsl:template match="/">
@@ -40,12 +40,14 @@
     </xsl:template>
 
     <xsl:template match="registration">
+        <xsl:variable name="eventId" select="eventId" />
+        <xsl:variable name="event" select="$eventXml/events/event[@id = $eventId]" />
+        <xsl:variable name="offerId" select="$event/offerId" />
         <fo:block text-align="left" font-size="30pt">
-            Parathon
+            <xsl:value-of select="$offersXml/offers/offer[@id = $offerId]/title" />
         </fo:block>
         <fo:block text-align="left" font-size="15pt">
-            Parathon
-            Von 15 - 30 April 2017
+            Von <xsl:value-of select="$event/from" /> bis <xsl:value-of select="$event/to" />
         </fo:block>
         <fo:table space-after.optimum="20pt" space-before.optimum="20pt" font-size="11pt" border="1px solid black"  border-collapse="separate" border-separation="5pt">
             <fo:table-column column-number="1" />
@@ -118,6 +120,9 @@
         </fo:table>
         <fo:block text-align="left" font-size="15pt">
             Wir freuen uns Sie bald bei uns zu sehen!
+        </fo:block>
+        <fo:block text-align="right" font-size="15pt">
+            <xsl:call-template name="barcode" />
         </fo:block>
     </xsl:template>
 
