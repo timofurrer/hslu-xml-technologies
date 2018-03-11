@@ -11,21 +11,55 @@
 
 #offerDetailTable tr {
 	margin-top: 2em;
-	
+
 }
 
-#statisticInfo {
-	text-align:center;
-	
-}
-	
-.statistic-rect svg{
-	width: 5em;
-	height: 5em;
-	
+/*#statisticInfo {*/
+	/*text-align:center;*/
+
+/*}*/
+
+/*.statistic-rect svg{*/
+	/*width: 5em;*/
+	/*height: 5em;*/
+
+/*}*/
+
+/*.statistic-rect {*/
+	/*margin:auto;*/
+
+/*}*/
+
+.bar {
+    fill: #333;
+    height: 21px;
+    transition: fill .2s ease;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+
+    text {
+        fill: #555;
+    }
 }
 
-.statistic-rect {
-	margin:auto;
-	
+.chart:hover,
+.chart:focus {
+    .bar {
+        fill: #333;
+    }
+}
+
+.bar:hover,
+.bar:focus {
+    fill: #18BC9C !important;
+
+    text {
+        fill: #18BC9C;
+    }
+}
+
+figcaption {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
 }
