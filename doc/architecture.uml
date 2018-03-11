@@ -3,49 +3,70 @@
 /' remove title for pitch because the slide shows the title '/
 /'title Sport für alle - Struktur'/
 package PHP {
-    component [PHP] as server
+    
+    file index.php as indexPHP
+    file load_content.php as loadContentPHP
+    file registration.php as registrationPHP
+    file registration_confirmation.php as registrationConfirmationPHP
 }
+
+rectangle FOServer {
+}
+
+indexPHP -down-> loadContentPHP
+indexPHP -down-> registrationPHP
+registrationPHP -> registrationConfirmationPHP
+registrationConfirmationPHP -> FOServer
 
 package XSL {
-    file Uebersicht.xsl as overview
-    file Angebot.xsl as angebot
-    file Anmeldung.xsl as anmeldung
-    file Anmeldebestätigung.xsl as bestaetigung
+    file Offers.xsl as overview
+    file Offer.xsl as angebot
+    file reg_confirmation.xsl as bestaetigung
+    file registrations.xsl as anmeldung
 }
 
-server -down-> overview
-server -down-> angebot
-server -down-> anmeldung
-server -down-> bestaetigung
+loadContentPHP -down-> overview
+loadContentPHP -down-> angebot
+loadContentPHP -down-> anmeldung
+loadContentPHP -down-> bestaetigung
 
 package XML {
-    file Reservierung.xml as reservierungXML
-    file Angebot.xml as angebotXML
-    file Durchführungen.xml as durchfuehrungenXML
+    file registrations.xml as reservierungXML
+    file offers.xml as angebotXML
+    file events.xml as durchfuehrungenXML
+    file sporttypes.xml as sporttypesXML
+    file restrictions.xml as restrictionsXML
 }
 
 overview -down-> angebotXML
+overview -down-> sporttypesXML
 
 angebot -down-> angebotXML
 angebot -down-> reservierungXML
 angebot -down-> durchfuehrungenXML
+angebot -down-> restrictionsXML
 
 anmeldung -down-> angebotXML
 anmeldung -down-> reservierungXML
+anmeldung -down-> restrictionsXML
 
 bestaetigung -down-> angebotXML
 bestaetigung -down-> durchfuehrungenXML
 bestaetigung -down-> reservierungXML
 
 package XSD {
-    file Reservierungen.xsd as reservierungXSD
-    file Angebot.xsd as angebotXSD
-    file Durchführungen.xsd as durchfuerungenXSD
+    file Registrations.xsd as reservierungXSD
+    file Offers.xsd as angebotXSD
+    file Events.xsd as durchfuerungenXSD
+    file Restrictions.xsd as restrictionsXSD
+    file Sporttypes.xds as sporttypesXSD
 }
 
 angebotXML -down-> angebotXSD
 durchfuehrungenXML -down-> durchfuerungenXSD
 reservierungXML -down-> reservierungXSD
+restrictionsXML -down-> restrictionsXSD
+sporttypesXML -down-> sporttypesXSD
 
 
 @enduml
