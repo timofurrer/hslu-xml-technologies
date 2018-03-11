@@ -5,8 +5,8 @@
 	  <title>Torball</title>
 	  <description>
 		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 	  </description>
 	  <suitable>blind</suitable>
@@ -15,61 +15,106 @@
 
 	<offer id="2">
 	  <title>Showdown</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>blind</suitable>
 	  <sport>4</sport>
 	</offer>
 
 	<offer id="3">
 	  <title>Unihockey</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>blind</suitable>
 	  <sport>4</sport>
 	</offer>
 
 	<offer id="4">
 	  <title>Parathon</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>halbblind</suitable>
 	  <sport>3</sport>
 	</offer>
-	
+
     <offer id="5">
       <title>Schlittschuheln</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>halbblind</suitable>
 	  <sport>2</sport>
     </offer>
 
     <offer id="6">
       <title>Eishockey</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>sehfaehig</suitable>
 	  <sport>2</sport>
     </offer>
 
     <offer id="7">
       <title>Schlitteln</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>sehfaehig</suitable>
 	  <sport>2</sport>
     </offer>
 
     <offer id="8">
       <title>Skifahren</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>blind</suitable>
 	  <sport>2</sport>
     </offer>
 	<offer id="9">
 		<title>Snowboarden</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>blind</suitable>
 	  <sport>2</sport>
 	</offer>
 	<offer id="10">
 		<title>Wandern</title>
-	  <description></description>
+	  <description>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+	  </description>
 	  <suitable>blind</suitable>
 	  <sport>1</sport>
 	</offer>
